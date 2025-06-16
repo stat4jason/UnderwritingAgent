@@ -1,2 +1,8 @@
-graph TD A[Applicant Submission] --> B(Data Collection Agent); B -- Collects Raw Data --> C(Eligibility Assessment Agent); C -- Assesses Eligibility --> D(Data Preprocessing Agent); D -- Cleans & Prepares Data --> E(Risk Assessment Agent); E -- Assesses Risk & Recommends Limit --> F(Decision Agent); F -- Makes Final Decision & Approves Limit --> G[Final Line of Credit Decision];
-
+```mermaid
+graph TD
+  A[Applicant Submission] --> B(Data Collection Agent)
+  B -- Collects Raw Data --> C(Eligibility Assessment Agent)
+  C -- Assesses Eligibility --> D(Data Preprocessing Agent)
+  D -- Cleans & Prepares Data --> E(Risk Assessment Agent)
+  E -- Assesses Risk & Recommends Limit --> F(Decision Agent)
+  F -- Makes Final Decision & Approves Limit --> G[Final Line of Credit Decision]
